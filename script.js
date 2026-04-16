@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
         card.style.setProperty('--mouse-x', `${x}px`);
         card.style.setProperty('--mouse-y', `${y}px`);
         card.style.background = `
-          radial-gradient(300px circle at ${x}px ${y}px, rgba(166, 245, 60, 0.04), transparent 40%),
+          radial-gradient(300px circle at ${x}px ${y}px, rgba(168, 85, 247, 0.04), transparent 40%),
           var(--glass-bg)
         `;
       });
